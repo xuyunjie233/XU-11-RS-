@@ -1,4 +1,4 @@
-%计算两个RS码的码距子程序：
+%计算两个RS码的码距子程序：（分）
 function dis = rscode_dis(code1,code2)
 dis = 0;
 for i = 1:7
@@ -6,6 +6,8 @@ for i = 1:7
  dis = dis+temp;
 end
 
+%计算两个RS码的码距子程序：
+%a_msg
 function x=a_msg(x)
 x=[0 0 0
  0 0 1
